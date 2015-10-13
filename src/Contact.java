@@ -7,26 +7,36 @@ public class Contact {
     public String email;
     public int age;
 
-    public Contact() {
-        this.name = "Matt Brown";
-        this.address = "Lame";
-    }
-
-    public Contact(String name, String address, String email, int age) {
+    public Contact(String name, int age){//Great way to reference your public Class Contact
         this.name = name;
-        this.address = address;
-        this.email = email;
-        this.age = age;
+        this.age = age;//Reference Contact c = new Contact information
+    }
+    //Contact c = new Contact("Bob", "405 Jefferson Street", "littleriver1337@gmail.com", 30);//Ez peeze lemon squezzy
+    //Contact c = new Contact();//this is the old annoying way to do things to set values through jrepl
+    //c.name = "Bob";
+    //c.address = "510 mill street";
+    //c.email = "littleriver1337@gmail.com"
+    //c.age = 30;
+    //public Contact() {
+        //this.name = "Matt Brown";
+       // this.address = "Lame";
     }
 
-    public String getName() {
-        return name;
-    }
+    //public Contact(String name, String address, String email, int age) {
+        //this.name = name;
+        //this.address = address;
+        //this.email = email;
+        //this.age = age;
+   // }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    //public String getName() {
+       // return name;
+    //}
 
-}
+    //public void setName(String name) {
+       // this.name = name;
+   //}
 
-//SOGOOD
+//}
+
+//SOGOODithurts
