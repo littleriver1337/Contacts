@@ -5,7 +5,7 @@ import java.util.HashMap;
  * Created by MattBrown on 10/13/15.
  */
 public class Contacts {
-    public static void man(String[] args){//run function
+    public static void main(String[] args){//run function
         Contact bob = new Contact("Bob", 30);
         Contact alice = new Contact("Alice", 24);
         Contact charlie = new Contact("Charlie", 29);

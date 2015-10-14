@@ -7,6 +7,10 @@ public class Contact {
     public String email;
     public int age;
 
+    public Contact(){
+
+    }
+
     public Contact(String name, int age){//Great way to reference your public Class Contact
         this.name = name;
         this.age = age;//Reference Contact c = new Contact information
@@ -20,7 +24,23 @@ public class Contact {
     //public Contact() {
         //this.name = "Matt Brown";
        // this.address = "Lame";
+
+    public String getName() {
+        return name;
     }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
 
     //public Contact(String name, String address, String email, int age) {
         //this.name = name;
