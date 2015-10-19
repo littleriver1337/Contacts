@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Random;
 
 /**
  * Created by MattBrown on 10/19/15.
@@ -32,6 +33,12 @@ public class Exercise3 {
                 // oklist = information
             }
         }
-        System.out.println("Lawls");
+        double randNum = Math.random();//generating radom numbers
+        int index = (int) (randNum * 4);
+        System.out.println(names[index]);
+
+        Random rand = new Random();//generating random numbers but a cleaner way of doing it
+        index = rand.nextInt(4);
+        System.out.println(names[index]);
     }
 }

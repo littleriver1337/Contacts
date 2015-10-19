@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 
 /**
@@ -9,11 +10,14 @@ public class Contacts {
         Contact bob = new Contact("Bob", 30);
         Contact alice = new Contact("Alice", 24);
         Contact charlie = new Contact("Charlie", 29);
+        Contact alice2 = new Contact ("Alice", 10);
 
         ArrayList<Contact> contacts = new ArrayList();//creating a new array list
         contacts.add(bob);//adding bob contact to the array list
         contacts.add(alice);//adding alice contact to array list
         contacts.add(charlie);//add charlie contact to array list
+        contacts.add(alice2);
+        Collections.sort(contacts);
 
         Contact contactToFind = null;//starts at 1
         for (Contact c : contacts){//c is newly created variable and left of : is temp variable or : = in as in c is a temporary value inside of contacts
