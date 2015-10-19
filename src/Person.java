@@ -5,6 +5,7 @@ public class Person {
     public String name;
     public int age;
     public double height;
+    public String abbrev;
 
     public void setName(String aName){
         name = aName;

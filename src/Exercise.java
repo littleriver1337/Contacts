@@ -17,10 +17,10 @@ public class Exercise {//arrays
         contacts.add(alice);
         contacts.add(bob);
 
-        //String[] names = {"Alice", "Bob", "Charlie", "Austin"};
+        //String[] names.txt = {"Alice", "Bob", "Charlie", "Austin"};
 
         for (Contact contact : contacts){//"for" loop with Arrays
-            if (contact.name.startsWith("A")){//finds names within "contact" that starts with A
+            if (contact.name.startsWith("A")){//finds names.txt within "contact" that starts with A
                 System.out.println(contact.name);//prints out the name of contact object
             }
         }
