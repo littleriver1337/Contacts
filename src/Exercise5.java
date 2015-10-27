@@ -24,7 +24,7 @@ public class Exercise5 {
         }
         String newStr = "";
         for(String newWord : newWords){
-            if (!newStr.isEmpty en
+            if (!newStr.isEmpty()){
                 newStr += " ";
             }
             newStr += " " + newWord;
