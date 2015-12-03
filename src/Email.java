@@ -2,8 +2,8 @@
  * Created by MattBrown on 10/8/15.
  */
 public class Email {
-    public String subjectLine;
-    public String body;
+    public String subjectLine; //lulz
+    public String body; //
     public String emailDestination;
     public int timeStamp;
 
